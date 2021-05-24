@@ -1,0 +1,303 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "covid help center",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "IndianStateCovidCaseCount",
+          "slots": [
+            {
+              "name": "indianState",
+              "type": "INDIAN_STATE"
+            }
+          ],
+          "samples": [
+            "corona in {indianState}",
+            "covid cases in {indianState}",
+            "Reported cases in {indianState}",
+            "Cases in {indianState}",
+            "Covid count for {indianState}",
+            "Corona count for {indianState}",
+            "Count for {indianState}",
+            "{indianState}"
+          ]
+        },
+        {
+          "name": "IndianStateCovidDeathCount",
+          "slots": [
+            {
+              "name": "indianState",
+              "type": "INDIAN_STATE"
+            }
+          ],
+          "samples": [
+            "{indianState} death",
+            "{indianState} died",
+            "death {indianState}",
+            "died {indianState}",
+            "died in {indianState}",
+            "How many people died",
+            "How many people died in {indianState}",
+            "death in {indianState}",
+            "death rate {indianState}",
+            "what is the death rate of {indianState}"
+          ]
+        },
+        {
+          "name": "IndianStateCovidDischargeCount",
+          "slots": [
+            {
+              "name": "indianState",
+              "type": "INDIAN_STATE"
+            }
+          ],
+          "samples": [
+            "recover in {indianState}",
+            "How many people recovered in {indianState}",
+            "discharged in {indianState}",
+            "discharged count in {indianState}",
+            "How many people discharged in {indianState}"
+          ]
+        },
+        {
+          "name": "CoronaPrecautions",
+          "slots": [],
+          "samples": [
+            "covid help center",
+            "covid help",
+            "precaution measures",
+            "What are the precaution measures for corona",
+            "What are the precaution measures for Covid",
+            "What are the precaution measures for Covid nineteen",
+            "To prevent the spread of COVID nineteen",
+            "precaution method",
+            "prevention method",
+            "prevention",
+            "precautions",
+            "covid nineteen precautions",
+            "Covid precautions",
+            "Corona precautions"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Puducherry"
+              }
+            },
+            {
+              "name": {
+                "value": "Lakshadweep\t"
+              }
+            },
+            {
+              "name": {
+                "value": "Ladakh"
+              }
+            },
+            {
+              "name": {
+                "value": "Jammu and Kashmir"
+              }
+            },
+            {
+              "name": {
+                "value": "Delhi",
+                "synonyms": [
+                  "Capital",
+                  "Capital of india",
+                  "India capital"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Dadra and Nagar Haveli and Daman and Diu"
+              }
+            },
+            {
+              "name": {
+                "value": "Chandigarh"
+              }
+            },
+            {
+              "name": {
+                "value": "Andaman and Nicobar Islands"
+              }
+            },
+            {
+              "name": {
+                "value": "West Bengal"
+              }
+            },
+            {
+              "name": {
+                "value": "Uttarakhand"
+              }
+            },
+            {
+              "name": {
+                "value": "Uttar Pradesh"
+              }
+            },
+            {
+              "name": {
+                "value": "Tripura"
+              }
+            },
+            {
+              "name": {
+                "value": "Telangana"
+              }
+            },
+            {
+              "name": {
+                "value": "Tamil Nadu"
+              }
+            },
+            {
+              "name": {
+                "value": "Sikkim"
+              }
+            },
+            {
+              "name": {
+                "value": "Rajasthan"
+              }
+            },
+            {
+              "name": {
+                "value": "Punjab"
+              }
+            },
+            {
+              "name": {
+                "value": "Odisha"
+              }
+            },
+            {
+              "name": {
+                "value": "Nagaland"
+              }
+            },
+            {
+              "name": {
+                "value": "Mizoram"
+              }
+            },
+            {
+              "name": {
+                "value": "Meghalaya"
+              }
+            },
+            {
+              "name": {
+                "value": "Manipur"
+              }
+            },
+            {
+              "name": {
+                "value": "Maharashtra"
+              }
+            },
+            {
+              "name": {
+                "value": "Madhya Pradesh"
+              }
+            },
+            {
+              "name": {
+                "value": "Kerala"
+              }
+            },
+            {
+              "name": {
+                "value": "Karnataka"
+              }
+            },
+            {
+              "name": {
+                "value": "Jharkhand"
+              }
+            },
+            {
+              "name": {
+                "value": "Himachal Pradesh"
+              }
+            },
+            {
+              "name": {
+                "value": "Haryana"
+              }
+            },
+            {
+              "name": {
+                "value": "Gujarat"
+              }
+            },
+            {
+              "name": {
+                "value": "Goa"
+              }
+            },
+            {
+              "name": {
+                "value": "Chhattisgarh"
+              }
+            },
+            {
+              "name": {
+                "value": "Bihar"
+              }
+            },
+            {
+              "name": {
+                "value": "Assam"
+              }
+            },
+            {
+              "name": {
+                "value": "Arunachal Pradesh"
+              }
+            },
+            {
+              "name": {
+                "value": "Andra Pradesh"
+              }
+            }
+          ],
+          "name": "INDIAN_STATE"
+        }
+      ]
+    }
+  },
+  "version": "19"
+}
