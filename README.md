@@ -8,11 +8,11 @@
 
 ###### How to get recovery rate information of any Indian State?
 Phrases : 
-a. How many people recovered in {indianState}?
-b. recover in {indianState}
-c. discharged in {indianState}
-d. How many people discharged in {indianState}
-e. discharged count in {indianState}
+How many people recovered in {indianState}?
+recover in {indianState}
+discharged in {indianState}
+How many people discharged in {indianState}
+discharged count in {indianState}
 
 Example : 
 User : How many people recovered in Kerala?
@@ -20,11 +20,11 @@ Alexa : (1million 2thousand...) persons have been recovered till now!
 
 ###### How to get death rate information of any Indian State?
 Phrases : 
-a. what is the death rate of {indianState}
-b. death rate {indianState}
-c. How many people died in {indianState}
-d. How many people died
-e. death in {indianState}
+what is the death rate of {indianState}
+death rate {indianState}
+How many people died in {indianState}
+How many people died
+death in {indianState}
 
 Example : 
 User : How many people died in Kerala?
@@ -32,11 +32,11 @@ Alexa : (seven thousand...) deaths have been reported till now!
 
 ###### How to get registered case information of any Indian State?
 Phrases : 
-a. Reported cases in {indianState}
-b. covid cases in {indianState}
-c. corona in {indianState}
-d. Corona count for {indianState}
-e. {indianState}
+Reported cases in {indianState}
+covid cases in {indianState}
+corona in {indianState}
+Corona count for {indianState}
+{indianState}
 
 Example : 
 User : Kerala
@@ -44,8 +44,8 @@ Alexa : (2million 2thousand...) cases have been reported till now!
 
 ###### How to get precaution measures?
 Phrases : 
-a. Covid help
-b. Precaution measures
+Covid help
+Precaution measures
 
 Example : 
 User : Precaution measures
